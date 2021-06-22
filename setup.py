@@ -48,9 +48,6 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    entry_points={'console_scripts': [
-        'punctuator.py = punctuator.punc:command_line_runner',
-    ]},
     zip_safe=False,
     install_requires=get_reqs('requirements.txt'),
     tests_require=get_reqs('requirements-test.txt'),
